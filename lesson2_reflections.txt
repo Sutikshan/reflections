@@ -3,6 +3,14 @@ We have following stages on which file lies :-
 
 	working directory >> Staging Area >> Repository
 
+
+
+$git add <file name>
+$git add -A or $git add --all 
+--will add edited/new files in working directory to staged area
+
+
+
 $git diff 
 --compares working directory with saging area
 
