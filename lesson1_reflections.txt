@@ -1,0 +1,30 @@
+Reflection:-
+checking differences before login serves two purposes - 
+- Helps you in finding bugs which accidentlly got introduced.
+- Reflection (https://sites.google.com/site/reflection4learning/why-reflect)
+- Helps you review and let you add good commit message for others to understand.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ - One can visualize the evolution of code over time.
+ 
+ 
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- By letting us decide when to commit, git gives us chance to think on sub-tasking the big task, and complete each subtasks in neat modular way.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Because changes are inter-related in software.
+
+How can you use the commands git log and git diff to view the history of files?
+- git log displayes the most recent commit first. git log with --stat displays how many lines are changed, 
+  how many new additions and removals in files. one can also invoke git log --author="name" to see commits
+  by given author name.
+  
+
+How might using version control make you more confident to make changes that could break something?
+- One can always go back to the older version of file and revert back wrong changes It is easy to find the 
+  root cause of the issue. For these reasons, it is important have ideal commit size and frequency.
+  
+  
+git diff considers the first argument as the "original", and the second argument as the "new" version, 
+so additions are lines present in the second argument but not the first.
+
