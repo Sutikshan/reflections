@@ -1,0 +1,14 @@
+
+We have following stages on which file lies :-
+
+	working directory >> Staging Area >> Repository
+
+$git diff 
+--compares working directory with saging area
+
+$git diff --staged
+-- compares staaging area against latest commit in repository
+
+$git diff commit1 commit2
+-- compares commit1 against commit2. What are the chagnes it will be required to make in commit1 to get commit2.
+
