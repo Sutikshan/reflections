@@ -27,3 +27,21 @@ $git diff commit1 commit2
 $git status
 -- shows the difference in working director in red color. Shows the files lying in staging area (but not in repo) in green color.
 
+BRANCHES
+
+The latest commit on any branch is called tip of the branch.
+Create a new branch, when you are starting something new feature or new bug fix or any new work.
+Branches allows you to context switch and compartmentalize your work. If you are working on a feature, and you want to fix a bug, 
+switch to branch which is related to the bug fix.
+
+
+git log --graph --oneline master easy-mode
+
+How do the diagrams help you visualize the branch structure?
+
+$git show <commitid>
+-- shows the changes done by commitid against given parent.
+
+$git merge master coins
+
+-- will merge the coins to master branch. After this command master will have all the commits done in coins branch.
